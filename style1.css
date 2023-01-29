@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Ubuntu:wght@700&display=swap');
+
+/*Backgorund */
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /*background-color: #5F8575;*/
+  background-color: #31523d;
+}
+
+header{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 30px 2.5%;
+}
+
+.page_links{
+  list-style: none;
+}
+
+.page_links name{
+  font-family: "Ubuntu";
+  font-size: 42px;
+  color: #edf0f1;
+  text-decoration: none;
+  padding-right: 45px;
+}
+
+.page_links li{
+    display: inline-block;
+    padding: 0px 20px;
+    font-family: "Ubuntu";
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+.page_links li1{
+    display: inline-block;
+    padding: 0px 32px;
+    font-family: "Ubuntu";
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+.page_links li2{
+    display: inline-block;
+    padding: 0px 32px;
+    font-family: "Ubuntu";
+    font-size: 12px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+.page_links li a{
+    transition: all 0.5s ease 0s;
+    font-family: "Ubuntu";
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+.page_links li a:hover{
+    color: #383838
+}
+
+.page_links li1 a1{
+    transition: all 0.5s ease 0s;
+    font-family: "Ubuntu";
+    font-size: 20px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+.page_links li1 a1:hover{
+    color: #686767;
+    cursor: pointer;
+}
+
+.page_links li2 a2{
+    font-family: "Ubuntu";
+    font-size: 12px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+button{
+    padding: 9px 25px; 
+    background-color: rgba(0,136,169,1);
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.5s ease 0s;
+    font-family: "Ubuntu";
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+button:hover{
+    background-color: rgba(0,136,169, 0.8);
+}
+
+.about_me{
+    width: 100%;
+    padding: 15px 0px;
+}
+
+.about_pic{
+    padding: 10px 20px;
+    display: block;
+    margin-left: auto; 
+}
+
+.about_me_text{
+    word-wrap: break-word;
+    font-family: "Ubuntu";
+    padding: 0px 25px;
+    color: #edf0f1;
+}
+
+input{
+    -webkit-appearance: none;
+    margin: 1rem auto;
+    position: relative;
+    width: 50px;
+    height: 30px;
+    border-radius: 25px;
+    background-color: #4f4444;
+    transition: background .5s;
+    outline: none;
+    cursor: pointer;
+
+}
+
+input::after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    height: 1.25rem;
+    width: 1.25rem;
+    background-color: #edf0f1;
+    transition: left .3s;
+}
+
+input:checked::after{
+    left: 70%;
+    background-color: #edf0f1;
+}
