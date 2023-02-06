@@ -2,30 +2,29 @@
 
 /*Backgorund */
 *{
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  background-color: #4a4a4a;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #5c5c5c;
 }
 
 header{
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  padding: 30px 2.5%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px 2.5%;
 }
 
-
 .page_links{
-  list-style: none;
+    list-style: none;
 }
 
 .page_links name{
-  font-family: "Fredoka One";
-  font-size: 42px;
-  color: #edf0f1;
-  text-decoration: none;
-  padding-right: 45px;
+    font-family: "Fredoka One";
+    font-size: 42px;
+    color: #303030;
+    text-decoration: none;
+    padding-right: 45px;
 }
 
 .page_links li{
@@ -33,7 +32,7 @@ header{
     padding: 0px 20px;
     font-family: "Fredoka One";
     font-size: 16px;
-    color: #edf0f1;
+    color: #303030;
     text-decoration: none;
 }
 
@@ -42,7 +41,7 @@ header{
     padding: 0px 32px;
     font-family: "Fredoka One";
     font-size: 16px;
-    color: #edf0f1;
+    color: #303030;
     text-decoration: none;
 }
 
@@ -51,7 +50,7 @@ header{
     padding: 0px 32px;
     font-family: "Fredoka One";
     font-size: 12px;
-    color: #edf0f1;
+    color: #303030;
     text-decoration: none;
 }
 
@@ -62,7 +61,7 @@ header{
     padding-bottom: 25px;
     font-family: "Fredoka One";
     font-size: 12px;
-    color: #edf0f1;
+    color: #303030;
     text-decoration: none;
 }
 
@@ -70,62 +69,62 @@ header{
     transition: all 0.5s ease 0s;
     font-family: "Fredoka One";
     font-size: 16px;
-    color: #edf0f1;
+    color: #303030;
     text-decoration: none;
 }
 
 .page_links li a:hover{
-    color: #383838
+    color: #000000
 }
 
 .page_links li2 a{
     transition: all 0.5s ease 0s;
     font-family: "Fredoka One";
     font-size: 16px;
-    color: #edf0f1;
+    color: #303030;
     text-decoration: none;
 }
 
 .page_links li2 a:hover{
-    color: #383838
+    color: #000000
 }
 
 .page_links li3 a{
     transition: all 0.5s ease 0s;
     font-family: "Fredoka One";
     font-size: 16px;
-    color: #edf0f1;
+    color: #303030;
     text-decoration: none;
 }
 
 .page_links li3 a:hover{
-    color: #383838
+    color: #000000
 }
 
 .page_links li1 a1{
     transition: all 0.5s ease 0s;
     font-family: "Fredoka One";
     font-size: 20px;
-    color: #edf0f1;
+    color: #303030;
     text-decoration: none;
 }
 
 .page_links li1 a1:hover{
-    color: #686767;
+    color: #000000;
     cursor: pointer;
 }
 
 .page_links li2 a2{
     font-family: "Fredoka One";
     font-size: 12px;
-    color: #edf0f1;
+    color: #303030;
     text-decoration: none;
 }
 
 .page_links li3 a3{
     font-family: "Fredoka One";
     font-size: 12px;
-    color: #edf0f1;
+    color: #303030;
     text-decoration: none;
 }
 
@@ -134,10 +133,10 @@ button{
     background-color: rgba(0,136,169,1);
     border-radius: 50px;
     cursor: pointer;
-    transition: all 0.5s ease 0s;
+    transition: all 0.1s ease 0s;
     font-family: "Fredoka One";
     font-size: 16px;
-    color: #edf0f1;
+    color: #303030;
     text-decoration: none;
 }
 
@@ -151,8 +150,8 @@ button:hover{
 }
 
 .about_pic{
-    padding: 20px 15px;
-    max-width: 17.5%;
+    padding: 20px 25px;
+    max-width: 22.5%;
     height: auto; 
 }
 
@@ -161,7 +160,7 @@ button:hover{
     word-wrap: break-word;
     font-family: "Fredoka One";
     padding: 20px 30px;
-    color: #edf0f1;
+    color: #303030;
 }
 
 input{
@@ -187,16 +186,16 @@ input::after{
     border-radius: 50%;
     height: 1.25rem;
     width: 1.25rem;
-    background-color: #edf0f1;
+    background-color: #303030;
     transition: left .3s;
 }
 
 input:checked::after{
     left: 70%;
-    background-color: #edf0f1;
+    background-color: #303030;
 }
 
-.service_text{
+.body_text{
     text-indent: 30px;
     word-wrap: break-word;
     font-family: "Fredoka One";
@@ -205,10 +204,10 @@ input:checked::after{
     padding-bottom: 35px;
     padding-left: 30px;
     padding-right: 30px;
-    color: #edf0f1;
+    color: #303030;
 }
 
-.service_head{
+.body_head{
     font-size: 20px; 
     font-weight: bold;
     word-wrap: break-word;
@@ -216,5 +215,5 @@ input:checked::after{
     padding-top: 25px;
     padding-bottom: 10px;
     padding-left: 45px;
-    color: #edf0f1;
+    color: #303030;
 }

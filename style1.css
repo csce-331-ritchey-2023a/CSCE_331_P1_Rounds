@@ -2,31 +2,31 @@
 
 /*Backgorund */
 *{
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  /*background-color: #5F8575;*/
-  background-color: #31523d;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /*background-color: #5F8575;*/
+    background-color: #31523d;
 }
 
 header{
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  padding: 30px 2.5%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px 2.5%;
 }
 
 
 .page_links{
-  list-style: none;
+    list-style: none;
 }
 
 .page_links name{
-  font-family: "Ubuntu";
-  font-size: 42px;
-  color: #edf0f1;
-  text-decoration: none;
-  padding-right: 45px;
+    font-family: "Ubuntu";
+    font-size: 42px;
+    color: #edf0f1;
+    text-decoration: none;
+    padding-right: 45px;
 }
 
 .page_links li{
@@ -152,8 +152,8 @@ button:hover{
 }
 
 .about_pic{
-    padding: 20px 15px;
-    max-width: 17.5%;
+    padding: 20px 25px;
+    max-width: 22.5%;
     height: auto; 
 }
 
@@ -197,7 +197,7 @@ input:checked::after{
     background-color: #edf0f1;
 }
 
-.service_text{
+.body_text{
     text-indent: 30px;
     word-wrap: break-word;
     font-family: "Ubuntu";
@@ -209,7 +209,7 @@ input:checked::after{
     color: #edf0f1;
 }
 
-.service_head{
+.body_head{
     font-size: 20px; 
     font-weight: bold;
     word-wrap: break-word;
