@@ -1,9 +1,10 @@
 <html>
 
 <head>
-  <title>The Webpage Ever</title> <!-- Website title header -->
-  <link rel="stylesheet" href="style1.css"> <!-- Link css file -->
-
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link id="mainStyleSheet" rel="stylesheet" href="light.css" /><!-- Link css file -->
+  <title>Jake Rounds - Portfolio</title> <!-- Website title header -->
 </head>
 
 <body>
@@ -17,11 +18,39 @@
         <li><a href="service.html"> Service </a></li>
         <li><a href="chat_gpt.html"> AI-Generated Page </a></li>
         <!-- Lever Link -->
-		<li2><a2>Style 1</a2><a class = "switch_lever"><input type = "checkbox"></a><a2> Style 2</a2></li2>
+		<li2><a2>Style 1</a2><a class = "switch_lever" onclick="toggleStyleSheet()"><input type = "checkbox"></a><a2> Style 2</a2></li2>
       </ul>
     </nav>
   </header>
   <hr>
+  <section>
+      <div class = "service_head">
+        Project 1: Seat Swapper
+      </div>
+			<div class = "service_text">
+        One of my technical projects was from Texas A&M's, TAMU Hack 2023, my group and I worked together to create a website that connect individuals on specific flights to allow the to trade seats with one another. Consider your on a flight and you really hate the window seat and you ask the people in your row but they are not willing to switch seats, it is likely that there is someone in a similar situation (except they are in an aisle seat and would prefer the window)in a different row. Fortunately this common issue is solved by Seat Swapper which allows users to log onto the website and select their seat and toggle yes or no depending on if they are willing to swap. This data is public so there users can then check and see if someone in their dream seat has toggled yes to switch. From there, with in website communication, users can conveene and swap.
+        <li><a style="background-color:white; color: #36454F; padding:10px 20px; text-decoration:none; margin-top:10px; margin-bottom: 10px; display:inline-block" href="https://github.com/jake1213/SeatSwapper">Seat Swapper source code</a></li>
+			</div>
+	</section>
+  <section>
+			<div class = "service_head">
+        Project 2: Red Black Tree 
+      </div>
+			<div class = "service_text">
+          Another technical project was an individual course project that implemented a red black using a linked list. My completed project includes node insertion, deletion, and a search function. In the event of node insertion or deletion the tree would rebalence if need with a left or right shift. This is a very efficent sorting algorithm as the time complexity of all operations are completed in O(logn) 
+        <li><a style="background-color:white; color: #36454F; padding:10px 20px; text-decoration:none; margin-top:10px; margin-bottom: 10px; display:inline-block" href="https://github.com/jake1213/Red_Black_Tree">Red Black Tree source code</a></li>
+        <li><a style="background-color:white; color: #36454F; padding:10px 20px; text-decoration:none; margin-top:10px; margin-bottom: 10px; display:inline-block" href="https://www.geeksforgeeks.org/introduction-to-red-black-tree/">Red Black Tree Information</a></li>
+			</div>
+	</section>
+  <section>
+			<div class = "service_head">
+        Upcomming Project: Budgeting App 
+      </div>
+			<div class = "service_text">
+        A personal project I am working on is a simplisitc budgeting app that allows easy data entry and displays spending in different chart options. But what makes this different than other apps is that an option can be selected that takes current entered data and extrapolates it over the course of a selected time frame. User can then see if they will stay within their alloted budget. Additonally, the app will track reoccuring charges in a back end database and over time indroduce cheeper alternatives to users regular spending. Lastly the app will allow users to demo the options BEFORE registering for an account. 
+			</div>
+	</section>
+  <script src="script.js"></script>
 </body>
 
 </html>

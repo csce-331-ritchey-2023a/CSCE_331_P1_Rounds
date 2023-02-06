@@ -16,6 +16,7 @@ header{
   padding: 30px 2.5%;
 }
 
+
 .page_links{
   list-style: none;
 }
@@ -55,6 +56,17 @@ header{
     text-decoration: none;
 }
 
+.page_links li3{
+    display: inline-block;
+    padding-left: 60px;
+    padding-top: 5px;
+    padding-bottom: 25px;
+    font-family: "Ubuntu";
+    font-size: 12px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
 .page_links li a{
     transition: all 0.5s ease 0s;
     font-family: "Ubuntu";
@@ -64,6 +76,30 @@ header{
 }
 
 .page_links li a:hover{
+    color: #383838
+}
+
+.page_links li2 a{
+    transition: all 0.5s ease 0s;
+    font-family: "Ubuntu";
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+.page_links li2 a:hover{
+    color: #383838
+}
+
+.page_links li3 a{
+    transition: all 0.5s ease 0s;
+    font-family: "Ubuntu";
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+.page_links li3 a:hover{
     color: #383838
 }
 
@@ -81,6 +117,13 @@ header{
 }
 
 .page_links li2 a2{
+    font-family: "Ubuntu";
+    font-size: 12px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+.page_links li3 a3{
     font-family: "Ubuntu";
     font-size: 12px;
     color: #edf0f1;
@@ -105,19 +148,20 @@ button:hover{
 
 .about_me{
     width: 100%;
-    padding: 15px 0px;
+    padding: 1px 0px;
 }
 
 .about_pic{
-    padding: 10px 20px;
-    display: block;
-    margin-left: auto; 
+    padding: 20px 15px;
+    max-width: 17.5%;
+    height: auto; 
 }
 
 .about_me_text{
+    text-indent: 32.5px;
     word-wrap: break-word;
     font-family: "Ubuntu";
-    padding: 0px 25px;
+    padding: 20px 30px;
     color: #edf0f1;
 }
 
@@ -151,4 +195,27 @@ input::after{
 input:checked::after{
     left: 70%;
     background-color: #edf0f1;
+}
+
+.service_text{
+    text-indent: 30px;
+    word-wrap: break-word;
+    font-family: "Ubuntu";
+    padding: 20px 35px;
+    padding-top: 5px;
+    padding-bottom: 35px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #edf0f1;
+}
+
+.service_head{
+    font-size: 20px; 
+    font-weight: bold;
+    word-wrap: break-word;
+    font-family: "Ubuntu";
+    padding-top: 25px;
+    padding-bottom: 10px;
+    padding-left: 45px;
+    color: #edf0f1;
 }
